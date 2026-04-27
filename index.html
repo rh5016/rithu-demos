@@ -8,58 +8,43 @@
   <style>
     body {
       margin: 0;
-      padding: 24px;
-      background-color: antiquewhite;
-      font-family: Arial, sans-serif;
-      color: #222;
+      padding: 20px;
+      background: white;
+      font-family: "Times New Roman", Times, serif;
+      color: black;
     }
 
     .container {
-      max-width: 650px;
+      max-width: 600px;
       margin: 0 auto;
     }
 
     h1 {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 32px;
-      text-transform: lowercase;
+      font-weight: normal;
+      font-size: 28px;
+      margin-bottom: 30px;
     }
 
     h2 {
-      margin-top: 36px;
-      border-bottom: 1px solid #999;
-      padding-bottom: 6px;
+      font-weight: normal;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
     }
 
-    .track {
-      margin: 20px 0;
-      padding: 16px;
-      background: rgba(255, 255, 255, 0.55);
-      border-radius: 12px;
-    }
-
-    .track p {
-      margin: 0 0 10px;
-      font-weight: bold;
-      text-transform: lowercase;
+    p {
+      margin: 12px 0 6px;
     }
 
     audio {
       width: 100%;
+      max-width: 100%;
       display: block;
+      margin-bottom: 10px;
     }
 
-    .links {
-      text-align: center;
-      margin-top: 36px;
-      font-size: 1rem;
-    }
-
-    .links a {
-      color: #222;
-      text-decoration: underline;
-      margin: 0 8px;
+    a {
+      color: black;
     }
 
     @media (max-width: 600px) {
@@ -68,11 +53,11 @@
       }
 
       h1 {
-        font-size: 1.7rem;
+        font-size: 24px;
       }
 
-      .track {
-        padding: 14px;
+      h2 {
+        font-size: 18px;
       }
     }
   </style>
@@ -81,94 +66,66 @@
 <body>
   <div class="container">
     <h1>rithu demos</h1>
-    <h2>2026</h2>
-    <div class="track">
-      <p>Paris</p>
-      <audio controls>
-        <source src="Paris_Varispeed_neg3_413.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
 
-    <div class="track">
-      <p>i know that u want it baddd</p>
-      <audio controls>
-        <source src="CrunchSong.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <h2>2026</h2>
+    
+    <p>Paris</p>
+    <audio controls>
+      <source src="Paris_Varispeed_neg3_413.mp3" type="audio/mpeg">
+    </audio>
+
+    <p>i know u want it bad</p>
+    <audio controls>
+      <source src="CrunchySong.mp3" type="audio/mpeg">
+    </audio>
+    
 
     <h2>2024 - 2025</h2>
 
-    <div class="track">
-      <p>Fated</p>
-      <audio controls>
-        <source src="fated.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>Fated</p>
+    <audio controls>
+      <source src="fated.mp3" type="audio/mpeg">
+    </audio>
 
-    <div class="track">
-      <p>5/2/25 Song</p>
-      <audio controls>
-        <source src="52Song_1.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>5/2/25 Song</p>
+    <audio controls>
+      <source src="52Song_1.mp3" type="audio/mpeg">
+    </audio>
 
-    <div class="track">
-      <p>Blue</p>
-      <audio controls>
-        <source src="05_22.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>Blue</p>
+    <audio controls>
+      <source src="05_22.mp3" type="audio/mpeg">
+    </audio>
 
-    <div class="track">
-      <p>crashcars</p>
-      <audio controls>
-        <source src="Crashcars.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>crashcars</p>
+    <audio controls>
+      <source src="Crashcars.mp3" type="audio/mpeg">
+    </audio>
 
-    <div class="track">
-      <p>sweater</p>
-      <audio controls>
-        <source src="Sweater.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>sweater</p>
+    <audio controls>
+      <source src="Sweater.mp3" type="audio/mpeg">
+    </audio>
 
-    <div class="track">
-      <p>the Smiths</p>
-      <audio controls>
-        <source src="smiths.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>the Smiths</p>
+    <audio controls>
+      <source src="smiths.mp3" type="audio/mpeg">
+    </audio>
 
     <h2>2022 - 2023</h2>
 
-    <div class="track">
-      <p>prom song</p>
-      <audio controls>
-        <source src="theProm.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>prom song</p>
+    <audio controls>
+      <source src="theProm.mp3" type="audio/mpeg">
+    </audio>
 
-    <div class="track">
-      <p>711</p>
-      <audio controls>
-        <source src="711.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <p>711</p>
+    <audio controls>
+      <source src="711.mp3" type="audio/mpeg">
+    </audio>
 
-    <p class="links">
-      <a href="https://www.tiktok.com/@rithu.h" target="_blank">tiktok</a>
-      |
+    <p>
+      <a href="https://www.tiktok.com/@rithu.h" target="_blank">tiktok</a> |
       <a href="https://soundcloud.com/sparkleunicorn999" target="_blank">soundcloud</a>
     </p>
   </div>
